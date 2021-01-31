@@ -1,0 +1,51 @@
+//Homework Assignment #7: The DOM
+
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>My Favourite colors</title>
+  <style>
+    .rect {
+      width:500px;
+      height:100px;
+      border:1px solid #000;"
+    }
+  </style>
+  <script>
+    console.log("Here are the rectangle IDs");
+    //console.log(document);
+    elems = document.getElementsByClassName("rect");
+    console.log(elems);
+    
+    
+  </script>
+</head>
+<body>
+  <h1>My Favourite colors</h1>
+  <h2>Down below you can find my favourite <em>colors:</em></h2>
+  <div style="padding: 50px 50px 0px;" id = "rectangleWrapper">
+    <div style="background-color:#CD5C5C" id="rect1" class="rect">Rect 1</div>
+    <p>#CD5C5C</p>
+    <div style="background-color:#F08080" id="rect2" class="rect">Rect 2</div>
+    <p>#F08080</p>
+    <div style="background-color:#FA8072" id="rect3" class="rect">Rect 3</div>
+    <p>#FA8072</p>
+    <div style="background-color:#E9967A" id="rect4" class="rect">Rect 4</div>
+    <p>#E9967A</p>
+    <div style="background-color:#FFA07A" id="rect5" class="rect">Rect 5</div>
+    <p>#FFA07A</p>
+  </div>
+</body>
+</html>
+"Here are the rectangle IDs"
+[object HTMLCollection] {
+  item: function item() { [native code] },
+  length: 0,
+  namedItem: function namedItem() { [native code] }
+}
+Bin info
+just now
+EthicalAds: A privacy-focused ad network for developers. Publishers & Advertisers wanted!
+Ad by EthicalAds
